@@ -1,0 +1,20 @@
+import java.util.Arrays;
+
+
+public class Oopss {
+ 
+void	replace(int arr[],int ind,int newEle)
+	{
+		arr[ind]=newEle;
+		 
+	}
+	public static void main(String[] args) {
+		Oopss o = new Oopss();
+		 int []arr={1,2,3};
+		int ind=2,newEle=78;
+	 o.replace(arr,ind,newEle);
+ 
+	System.out.println(Arrays.toString(arr));
+	}
+
+}
